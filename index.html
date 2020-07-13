@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>CSSS Online Elections</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>CSSS Online Elections</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
-<body>
-	<p>CSSS Online Elections</p>
+<body class="gridContainer">
 
-	<p>Login below to vote in the CSSS Online Elections. Only Students who are currently registered in CS courses as the University of Regina are eligible to vote. </p>
-	<form action="" method="GET">
-		<p>username: <input type="text" name="username"/></p>
-		<p>password: <input type="password" name="password"/></ins></p>
-		<p><input type="submit"  name="login" value="Login" /></p>
-	</form>
-	
+    <p class="top">CSSS Online Elections</p>
+    <div class="left"></div>
+    <div class="main">
+        <p>Login below to vote in the CSSS Online Elections. Only Students who are currently registered in CS courses as the University of Regina are eligible to vote. </p>
+        <form action="" method="GET">
+            <p>
+                username: 
+                <input type="text" name="username"/>
+                <span class="help" >* your email address</span>
+            </p>
+            <p>
+                password: 
+                <input type="password" name="password"/>
+                <span class="help" >* 8 characters, </span>
+            </p>
+            <p class="formElement"><input type="submit"  name="login" value="login" /></p>
+        </form>
+    </div>
+    <div class="right"></div>
+    <div class="bottom"></div>
 </body>
 </html>
